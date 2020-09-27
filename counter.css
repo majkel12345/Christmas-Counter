@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1543759616-59a65ec54e17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+    background-size: cover;
+    background-position: center center;
+    padding: 40px 20px;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.counter {
+    text-align: center;
+    padding: 12px;
+}
+
+.counter span {
+    font-size: 8rem;
+}
+
+.counter p {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 767px) {
+    .counters {
+        flex-direction: column;
+    }
+
+   .counter span{
+    font-size: 2rem;
+   }
+   .counter p{
+    font-size: 1rem;
+   }
+   h1 {
+    font-size: 2rem;
+   }
+  }
