@@ -1,4 +1,4 @@
-const christmas = '24 Dec 2021'
+const christmas = '24 Dec 2020'
 const day = document.getElementById('days')
 const hour = document.getElementById('hours')
 const minute = document.getElementById('minutes')
